@@ -1,0 +1,55 @@
+# Essa é a minha ajuda do nvim
+
+Você pode ainda usar o comando :help padrão do nvim
+
+# Como criar um arquivo no nvim
+
+Se você ainda esta no bash e não entrou no nvim basta execucutar:
+
+nvim nome-do-novo-arquivo.py
+
+Caso você ja esteja dentro do nvim e deseja criar um arquivo, modo NORMAL
+
+e: nome-do-novo-arquivo.py
+
+Para remover um arquivo basta executar o comando no modo normal:
+
+:rm local/do/arquivo/arquivo.py
+
+# Movimentações
+
+	k
+h		l
+	j
+
+# Copiar Recortar e Colar
+
+No modo normal:
+
+`dd` remove a linha inteira
+
+`d2j`remove apartir da linha atual 2 linhas abaixo .  `d` significa 
+remover/recortar, `2` duas linhas `j` significa para baixo
+
+`y5j` copia as linha corrente e mais 5 abaixo
+
+`p` cola o conteudo copiado ou recortado
+
+# Desfazer uma ação
+
+`u` desfazer uma ação
+
+Esse comando repetido várias vezes vai desfazendo todas as ações.
+
+# Abas
+
+Para abrir uma aba basta abrir o fzf+bat com o comando <Space>f procurar um
+arquivo e selecionar apertando Enter
+
+
+Para navegar entre abas basta digitar:
+
+	`gt` para ir para proxima
+	`<gT` para ir para a anterior
+
+
